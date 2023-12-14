@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Metropolis-Bold;
+  src: url(./assets/font/metropolis.bold.otf);
+}
+
+@font-face {
+  font-family: Metropolis-Light;
+  src: url(./assets/font/metropolis.extra-light.otf);
+}
+
+@font-face {
+  font-family: Metropolis-Medium;
+  src: url(./assets/font/metropolis.medium.otf);
+}
+
+@font-face {
+  font-family: Metropolis-Regular;
+  src: url(./assets/font/metropolis.regular.otf);
+}
+@font-face {
+  font-family: Metal-Regular;
+  src: url(./assets/font/MetalMania-Regular.ttf);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Metropolis-Regular;
+  box-sizing: border-box;
+}
